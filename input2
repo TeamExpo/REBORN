@@ -3,7 +3,7 @@ print"boomer"
 
 function ze()
 game.Players.PlayerAdded:Connect(function(player)
-    local admin1 = game.Players.TKvanity
+local admin1 = game.Players:FindFirstChild("LynxVegan")
  
 admin1.Chatted:Connect(function(msg)
  
@@ -14,7 +14,7 @@ if msgL:sub(1,2) == "ez" then
     end
 end)
 end)
-local admin1 = game.Players.TKvanity
+local admin1 = game.Players:FindFirstChild("LynxVegan")
  
 admin1.Chatted:Connect(function(msg)
  
